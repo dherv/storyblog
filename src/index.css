@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-title {
+  @apply text-gray-700 my-4;
+}
+.form-label {
+  @apply inline-block text-gray-700 font-thin text-sm mb-2;
+}
+.form-element {
+  @apply shadow outline-none resize-none w-full max-w-4xl p-4 text-gray-600 mb-4;
+}
+.btn {
+  @apply bg-yellow-100 rounded py-2 shadow px-4 my-4
+}
